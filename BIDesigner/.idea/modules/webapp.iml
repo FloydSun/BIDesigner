@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id="webapp" external.linked.project.path="D:/cas-5.2.0/webapp" external.root.project.path="D:/cas-5.2.0/webapp" external.system.id="GRADLE" type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://D:/cas-5.2.0/webapp" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
