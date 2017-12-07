@@ -127,7 +127,7 @@ public class SessionResource  {
 	  try {
 		sess = sessionService.getSession();
 	  } catch (Exception e) {
-		return Response.serverError().entity(e.getLocalizedMessage()).build();
+		return Response.serverError().entity(e.getMessage()).build();
 	  }
 	  try {
 			String acceptLanguage = req.getLocale().getLanguage();
