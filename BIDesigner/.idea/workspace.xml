@@ -99,11 +99,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="plugin.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="plugin.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/js/saiku/plugins/AdminConsole/plugin.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="268" column="21" lean-forward="true" selection-start-line="268" selection-start-column="21" selection-end-line="268" selection-end-column="21" />
+            <state relative-caret-position="114">
+              <caret line="263" column="4" lean-forward="true" selection-start-line="263" selection-start-column="4" selection-end-line="271" selection-end-column="22" />
               <folding>
                 <marker date="1512712540174" expanded="true" signature="8944:8963" ph="..." />
                 <marker date="1512712540174" expanded="true" signature="9018:9036" ph="..." />
@@ -118,21 +118,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Settings.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/saiku/Settings.js">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-171">
-              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
+            <state relative-caret-position="114">
+              <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="License.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/org/saiku/web/rest/resources/License.java">
+      <file leaf-file-name="Settings.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/js/saiku/Settings.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="184" column="12" lean-forward="false" selection-start-line="184" selection-start-column="12" selection-end-line="184" selection-end-column="12" />
+            <state relative-caret-position="-171">
+              <caret line="10" column="34" lean-forward="false" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -159,8 +159,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>datasourceService</find>
-      <find>validate</find>
       <find>Buy license</find>
       <find>saiku/api/query</find>
       <find>saiku/api</find>
@@ -189,6 +187,8 @@
       <find>DATA_SOURCES_LOOKUP</find>
       <find>Settings</find>
       <find>LICENSE</find>
+      <find>SHOW_USER</find>
+      <find>timeout</find>
     </findStrings>
     <replaceStrings>
       <replace>..</replace>
@@ -223,7 +223,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/path/ELBlockQuerier.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/path/ELListener.java" />
         <option value="$PROJECT_DIR$/src/lib/spring-web-4.1.6.RELEASE.jar!/org/springframework/web/WebApplicationInitializer.class" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/lib/jcr-2.0.jar!/javax/jcr/query/QueryManager.class" />
         <option value="$PROJECT_DIR$/src/lib/jcr-2.0.jar!/javax/jcr/Session.class" />
         <option value="$PROJECT_DIR$/src/main/java/com/el/ELListener.java" />
@@ -263,6 +262,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/js/saiku/plugins/I18n/plugin.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/saiku/Settings.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/saiku/plugins/AdminConsole/plugin.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
       </list>
     </option>
   </component>
@@ -411,7 +411,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIDesigner" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -793,12 +799,12 @@
       <workItem from="1512631060567" duration="1141000" />
       <workItem from="1512632975195" duration="6058000" />
       <workItem from="1512703563104" duration="1936000" />
-      <workItem from="1512705584503" duration="6609000" />
+      <workItem from="1512705584503" duration="6740000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73897000" />
+    <option name="totallyTimeSpent" value="74028000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1186,14 +1192,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/saiku/olap/dto/SaikuTag.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="20" column="13" lean-forward="false" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/org/saiku/olap/dto/resultset/Matrix.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -1614,8 +1612,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/js/saiku/plugins/AdminConsole/plugin.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="268" column="21" lean-forward="true" selection-start-line="268" selection-start-column="21" selection-end-line="268" selection-end-column="21" />
+        <state relative-caret-position="114">
+          <caret line="263" column="4" lean-forward="true" selection-start-line="263" selection-start-column="4" selection-end-line="271" selection-end-column="22" />
           <folding>
             <marker date="1512712540174" expanded="true" signature="8944:8963" ph="..." />
             <marker date="1512712540174" expanded="true" signature="9018:9036" ph="..." />
@@ -1626,6 +1624,14 @@
             <marker date="1512712540174" expanded="true" signature="22496:22509" ph="..." />
             <marker date="1512712540174" expanded="true" signature="46491:46497" ph="&amp;nbsp;" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="68" column="21" lean-forward="true" selection-start-line="68" selection-start-column="21" selection-end-line="68" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>
