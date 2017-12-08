@@ -1,8 +1,0 @@
-<component name="ArtifactManager">
-  <artifact type="jar" name="cas-auth">
-    <output-path>$PROJECT_DIR$/out/artifacts/cas_auth</output-path>
-    <root id="archive" name="cas-auth.jar">
-      <element id="module-output" name="saiku3" />
-    </root>
-  </artifact>
-</component>

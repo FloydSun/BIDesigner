@@ -16,10 +16,7 @@
 
 package org.saiku.service;
 
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.UUID;
+import java.util.*;
 
 import javax.servlet.http.HttpServletRequest;
 
@@ -29,8 +26,10 @@ public class AnonymousSessionService implements ISessionService {
   private HashMap<String, Object> session = new HashMap<>();
 
   public AnonymousSessionService() {
-    session.put( "username", "anonymous" );
+    session.put( "username", "admin" );
     session.put( "sessionid", UUID.randomUUID().toString() );
+    List roles = new ArrayList<String>();
+    roles.add("ROLE_ADMIN");
     session.put( "roles", new ArrayList<String>() );
 
 

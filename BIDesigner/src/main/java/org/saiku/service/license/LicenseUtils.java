@@ -82,22 +82,23 @@ public class LicenseUtils implements ILicenseUtils {
   public Object getLicense()
       throws IOException, ClassNotFoundException, RepositoryException {
 
-    String file = this.repositoryDatasourceManager
-        .getInternalFileData("/etc/license.lic");
-
-    Object obj = null;
-    byte[] b = Base64Coder.decode(file);
-
-    try (ObjectInputStream in = new ObjectInputStream(new ByteArrayInputStream(
-        b))) {
-      Object license = null;
-      try {
-        license = in.readObject();
-      } catch (ClassNotFoundException e) {
-        log.debug("license not read from stream");
-      }
-      return license;
-    }
+//    String file = this.repositoryDatasourceManager
+//        .getInternalFileData("/etc/license.lic");
+//
+//    Object obj = null;
+//    byte[] b = Base64Coder.decode(file);
+//
+//    try (ObjectInputStream in = new ObjectInputStream(new ByteArrayInputStream(
+//        b))) {
+//      Object license = null;
+//      try {
+//        license = in.readObject();
+//      } catch (ClassNotFoundException e) {
+//        log.debug("license not read from stream");
+//      }
+//      return license;
+//    }
+    return new SaikuLicense2();
 
 
   }
@@ -128,15 +129,15 @@ public class LicenseUtils implements ILicenseUtils {
   @Override
   public void validateLicense()
           throws LicenseException, RepositoryException, IOException, ClassNotFoundException {
-    Object l = getLicense();
-
-    if (l instanceof SaikuLicense) {
-      ((SaikuLicense) l).validate(new Date(), getVersion(), false, false, true, false);
-    } else if (l instanceof SaikuLicense2) {
-      ((SaikuLicense2) l).validate(new Date(), getVersion(), false, false, true, false);
-    } else {
-      throw new LicenseException("Can't validate license");
-    }
+//    Object l = getLicense();
+//
+//    if (l instanceof SaikuLicense) {
+//      ((SaikuLicense) l).validate(new Date(), getVersion(), false, false, true, false);
+//    } else if (l instanceof SaikuLicense2) {
+//      ((SaikuLicense2) l).validate(new Date(), getVersion(), false, false, true, false);
+//    } else {
+//      throw new LicenseException("Can't validate license");
+//    }
   }
 
   private String getVersion() {

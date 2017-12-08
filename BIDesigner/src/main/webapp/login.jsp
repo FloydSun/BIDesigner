@@ -14,7 +14,7 @@
   <link type="text/css" rel="stylesheet" href="<c:url value="/style.css"/>"/>
 </head>
 
-<body>
+<body style="display:none">
 
   <h1>Sparklr</h1>
 
@@ -32,17 +32,21 @@
       <h2>Login</h2>
 
       <p>We've got a grand total of 2 users: marissa and paul. Go ahead and log in. Marissa's password is "koala" and Paul's password is "emu".</p>
-      <form id="loginForm" name="loginForm" action="<c:url value="/login.do"/>" method="POST">
-        <p><label>Username: <input type='text' name='j_username' value="marissa"></label></p>
-        <p><label>Password: <input type='text' name='j_password' value="koala"></label></p>
-        
+		  <form id="loginForm" name="loginForm" action="<c:url value="/login.do"/>" method="POST">
+        <p><label>Username: <input type='text' name='j_username' value="admin"></label></p>
+        <p><label>Password: <input type='text' name='j_password' value="admin"></label></p>
+
         <p><input name="login" value="Login" type="submit"></p>
       </form>
     </authz:authorize>
+
   </div>
 
   <div id="footer">Design by <a href="http://www.pyserwebdesigns.com" target="_blank">Pyser Web Designs</a></div>
+	<script type="text/javascript">
+		document.getElementById(loginForm)
 
+	</script>
 
 </body>
 </html>

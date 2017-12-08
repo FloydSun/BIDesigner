@@ -118,7 +118,7 @@ var Settings = {
     },
     PARENT_MEMBER_DIMENSION: false,
     EXT_DATASOURCE_PROPERTIES: false,
-    SHOW_USER_MANAGEMENT: true,
+    SHOW_USER_MANAGEMENT: false,
     SHOW_REFRESH_NONADMIN: false,
     EMPTY_VALUE_CHARACTER: '-',
     HIDE_EMPTY_ROWS: true,

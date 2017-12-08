@@ -36,7 +36,7 @@
 	</security:http>
 	<security:http pattern="/repository/**" security="none">
 	</security:http>
-	<security:http auto-config='true' use-expressions="false"> <!--access-denied-page="/login.jsp"-->
+<!--	<security:http auto-config='true' use-expressions="false"> &lt;!&ndash;access-denied-page="/login.jsp"&ndash;&gt;
 		<security:csrf disabled="true"/>
 		<security:intercept-url pattern="/serverdocs/**" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
 		<security:intercept-url pattern="/rest/saiku/session*" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
@@ -47,9 +47,21 @@
 		<security:intercept-url pattern="/WEB-INF/classes/legacy-schema" access="IS_AUTHENTICATED_ANONYMOUSLY"/>
 		<security:logout logout-url="/logout"/>
 		<security:http-basic/>
+	</security:http>-->
+
+	<security:http auto-config='true' use-expressions="true"> <!--access-denied-page="/login.jsp"-->
+	<security:csrf disabled="true"/>
+	<security:intercept-url pattern="/serverdocs/**" access="isAnonymous()" />
+	<security:intercept-url pattern="/rest/saiku/session*" access="isAnonymous() or isFullyAuthenticated()" />
+	<security:intercept-url pattern="/rest/saiku/session/" access="isAnonymous() or isFullyAuthenticated()" />
+
+	<security:intercept-url pattern="/rest/**" access="isFullyAuthenticated()" />
+	<security:intercept-url pattern="/json/**" access="isFullyAuthenticated()" />
+	<security:intercept-url pattern="/WEB-INF/classes/legacy-schema" access="isAnonymous()" />
+	<security:logout logout-url="/logout"/>
+	<security:http-basic/>
+
 	</security:http>
-
-
 
 	<import resource="applicationContext-spring-security.xml"/>
 

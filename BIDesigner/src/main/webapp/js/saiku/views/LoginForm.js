@@ -21,11 +21,11 @@ var LoginForm = Modal.extend({
     type: 'login',
 
     message: _.template(
-        '<form id="login_form">' +
+        '<form id="login_form" style="display:none">' +
             '<label for="username" class="i18n">Username</label>' +
-            '<input type="text" id="username" name="username">' +
+            '<input type="text" id="username" name="username" value="admin">' +
             '<label for="password" class="i18n">Password</label>' +
-            '<input type="password" id="password" name="password">' +
+            '<input type="password" id="password" name="password" value="admin">' +
             '<% if (Settings.EVALUATION_PANEL_LOGIN) { %>' +
                 '<div class="eval-panel">' +
                     '<a href="#eval_login" class="i18n" id="eval-login">Evaluation Login</a>' +
@@ -67,6 +67,10 @@ var LoginForm = Modal.extend({
         _.bindAll(this, 'adjust');
         // this.options.title = Settings.VERSION;
         this.bind('open', this.adjust);
+        var _this = this;
+        setTimeout(function () {
+			_this.login();
+		}, 10);
     },
 
     adjust: function() {
