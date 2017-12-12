@@ -1,0 +1,7 @@
+type=OLAP
+name=SakilaTest
+driver=mondrian.olap4j.MondrianOlap4jDriver
+location=jdbc:mondrian:Jdbc=jdbc:mysql://localhost:3306/sakila_dwh;Catalog=mondrian:///datasources/SakilaTest.xml;JdbcDrivers=com.mysql.jdbc.Driver;
+username=root
+password=root
+security.enabled=false
