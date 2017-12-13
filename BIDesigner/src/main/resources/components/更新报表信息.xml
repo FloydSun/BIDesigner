@@ -3,12 +3,15 @@
 		<http id="resp"
               type="redirect"
               request="${request}"
-              response="${response}"
               url="http://localhost:8080/BusinessManagement/report/defineReportClr.do">
 			<params>
 				<server>http://localhost:8080/saiku3/index.html</server>
                 <token>SAIKU3</token>
 			</params>
 		</http>
+		<response type="json">
+			<errorCode>0</errorCode>
+			<message>OK</message>
+		</response>
 	</controller>
 </components>

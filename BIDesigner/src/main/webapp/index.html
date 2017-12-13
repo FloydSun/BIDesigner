@@ -1037,7 +1037,7 @@ title="Drill across on cell"></a></li>
 		var params = url.split('&');
 		for (var j = 0; j < params.length; ++j) {
 			var pair = params[j].split('=');
-			context[pair[0]] = pair[1];
+			context[pair[0]] = decodeURI(pair[1]);
 			if (context.breads){
 				break;
 			}
