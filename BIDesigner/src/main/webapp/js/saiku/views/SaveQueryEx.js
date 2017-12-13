@@ -36,7 +36,7 @@ var SaveQueryEx = Modal.extend({
         { text: "取消", method: "close" }
     ],
 
-    folder_name: '/report/',
+    folder_name: '/homes/',
     file_name: null,
 
     initialize: function(args) {
