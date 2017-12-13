@@ -47,6 +47,7 @@ import java.util.List;
 import java.util.zip.ZipEntry;
 import java.util.zip.ZipInputStream;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.Consumes;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.FormParam;
@@ -55,6 +56,7 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.Context;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 import javax.ws.rs.core.Response.Status;
@@ -233,14 +235,19 @@ public class BasicRepositoryResource2 implements ISaikuRepository {
   @POST
   @Path("/resource")
   public Response saveResource (
+  		@Context HttpServletRequest request,
 	  @FormParam("file") String file,
 	  @FormParam("content") String content)
   {
+  	if (request != null){
+		file = request.getParameter("file");
+		content = request.getParameter("content");
+	}
 	String username = sessionService.getAllSessionObjects().get("username").toString();
 	List<String> roles = (List<String> ) sessionService.getAllSessionObjects().get("roles");
-	String resp = datasourceService.saveFile(content, file, username, roles);
-	if(resp.equals("Save Okay")){
-	  return Response.ok().build();
+		String resp = datasourceService.saveFile(content, file, username, roles);
+		if(resp.equals("Save Okay")){
+			return Response.ok().build();
 	}
 	else{
 	  return Response.serverError().entity("Cannot save resource to ( file: " + file + ")").type("text/plain").build();
@@ -387,7 +394,7 @@ public class BasicRepositoryResource2 implements ISaikuRepository {
 		String fullPath = (StringUtils.isNotBlank(directory)) ? directory + "/" + fileName : fileName;
 
 		String content = new String(doc);
-		Response r = saveResource(fullPath, content);
+		Response r = saveResource(null, fullPath, content);
 		doc = null;
 
 		if (Status.OK.getStatusCode() != r.getStatus()) {

@@ -7,6 +7,10 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/el/pom.xml" />
+        <option value="$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/tools/pom.xml" />
+        <option value="$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/dynamicDS/pom.xml" />
+        <option value="$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/report/pom.xml" />
       </list>
     </option>
   </component>

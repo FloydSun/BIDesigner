@@ -15,6 +15,7 @@
  */
 package org.saiku.web.rest.resources;
 
+import com.xml.frame.report.component.entity.Context;
 import org.saiku.database.dto.MondrianSchema;
 import org.saiku.database.dto.SaikuUser;
 import org.saiku.datasources.datasource.SaikuDatasource;
@@ -33,6 +34,8 @@ import com.sun.jersey.multipart.FormDataParam;
 
 import org.apache.commons.io.IOUtils;
 import org.saiku.service.importer.JujuSource;
+import org.saiku.web.service.report.ReportService;
+import org.saiku.web.service.report.ReportServiceImpl;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
@@ -43,6 +46,8 @@ import java.util.List;
 import java.util.Properties;
 
 import javax.jcr.RepositoryException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
@@ -93,6 +98,10 @@ public class AdminResource {
         IDatasourceManager repositoryDatasourceManager) {
         this.repositoryDatasourceManager = repositoryDatasourceManager;
     }
+
+
+
+
     /**
      * Get all the available data sources on the platform.
      * @return A response containing a list of datasources.

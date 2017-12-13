@@ -134,6 +134,9 @@
         <property name="logExtractor" ref="logwriterbean"/>
     </bean>
 
+	<bean id="reportBean" class="org.saiku.web.rest.resources.ReportResource">
+	</bean>
+
     <bean id="olapDiscoverServiceBean" class="org.saiku.service.olap.OlapDiscoverService">
         <property name="datasourceService" ref="datasourceServiceBean"/>
     </bean>

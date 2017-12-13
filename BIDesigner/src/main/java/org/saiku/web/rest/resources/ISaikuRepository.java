@@ -5,6 +5,7 @@ import org.saiku.repository.IRepositoryObject;
 
 import java.util.List;
 
+import javax.servlet.http.HttpServletRequest;
 import javax.ws.rs.DELETE;
 import javax.ws.rs.FormParam;
 import javax.ws.rs.GET;
@@ -12,6 +13,7 @@ import javax.ws.rs.POST;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.QueryParam;
+import javax.ws.rs.core.Context;
 import javax.ws.rs.core.Response;
 
 
@@ -44,7 +46,8 @@ public interface ISaikuRepository {
 	 */
 	@POST
 	@Path("/resource")
-	Response saveResource(@FormParam("file") String file,
+	Response saveResource(@Context HttpServletRequest request,
+						  @FormParam("file") String file,
 						  @FormParam("content") String content);
 
 	/**

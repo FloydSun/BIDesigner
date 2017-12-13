@@ -181,6 +181,17 @@ var WorkspaceToolbar = Backbone.View.extend({
         }
     },
 
+	save_query_ex: function(event) {
+		var self = this;
+		if (this.workspace.query) {
+			if (typeof this.editor != "undefined") {
+				var mdx = this.editor.getValue();
+				this.workspace.query.model.mdx = mdx;
+			}
+			(new SaveQueryEx({ query: this.workspace.query })).render().open();
+		}
+	},
+
     open_query: function(event) {
             (new OpenDialog()).render().open();
     },

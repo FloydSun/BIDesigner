@@ -1,4 +1,4 @@
-/*  
+/*
  *   Copyright 2012 OSBI Ltd
  *
  *   Licensed under the Apache License, Version 2.0 (the "License");
@@ -13,7 +13,7 @@
  *   See the License for the specific language governing permissions and
  *   limitations under the License.
  */
- 
+
 /**
  * Base 64 module
  */
@@ -75,11 +75,11 @@ Backbone.sync = function(method, model, options) {
         'update': "PUT",
         'delete': "DELETE"
     };
-    
+
     // Generate AJAX action
     var type = methodMap[method];
     var url = Settings.REST_URL + (_.isFunction(model.url) ? model.url() : model.url);
-    
+
     // Prepare for failure
     if (typeof Settings.ERRORS == "undefined") {
         Settings.ERRORS = 0;
@@ -114,7 +114,7 @@ Backbone.sync = function(method, model, options) {
 
     var success = function(data, textStatus, jqXHR) {
       Settings.ERRORS = 0;
-      Saiku.ui.unblock();  
+      Saiku.ui.unblock();
       options.success(data, textStatus, jqXHR);
     };
     var async = true;
@@ -126,7 +126,7 @@ Backbone.sync = function(method, model, options) {
       dataType = options.dataType;
     }
 
-    var contentType = 'application/x-www-form-urlencoded';
+    var contentType = 'application/x-www-form-urlencoded; charset=UTF-8';
     if (typeof options.contentType != "undefined") {
       contentType = options.contentType;
     }
@@ -143,7 +143,7 @@ Backbone.sync = function(method, model, options) {
       contentType:  contentType,
       dataType:     dataType,
       success:      success,
-      statusCode:   statuscode, 
+      statusCode:   statuscode,
       error:        failure,
       async:        async//,
       //processData:  false
@@ -172,6 +172,12 @@ Backbone.sync = function(method, model, options) {
         };
       }
     }
+
+    // for (var i in params.data){
+    	// if (params.data[i]){
+	// 		params.data[i] = encodeURI(data[i]);
+	// 	}
+	// }
 
     // Make the request
     $.ajax(params);
