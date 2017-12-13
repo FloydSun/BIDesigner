@@ -1,0 +1,48 @@
+<Schema name="smart_eye_demo" measuresCaption="&#25351;&#26631;&#25968;&#25454;">
+  <Cube name="index_value_cube" caption="&#25351;&#26631;&#29366;&#24577;&#25968;&#25454;&#38598;(Demo)" visible="true" cache="true" enabled="true">
+    <Table name="fact_index_value_monthly">
+    </Table>
+    <Dimension type="StandardDimension" visible="true" foreignKey="organization_key" highCardinality="false" name="organization" caption="&#20844;&#21496;&#32500;&#24230;">
+      <Hierarchy name="default" visible="true" hasAll="true" allMemberName="allCompanies" allMemberCaption="&#20840;&#37096;&#20844;&#21496;" primaryKey="organization_key" caption="&#20844;&#21496;&#23618;&#27425;">
+        <Table name="dim_organization">
+        </Table>
+        <Level name="top_org" visible="true" table="dim_organization" column="organization_key" nameColumn="organization_name" parentColumn="parent_organization_key" nullParentValue="0" type="Integer" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#20844;&#21496;&#32423;&#21035;">
+          <Closure parentColumn="parent_organization_key" childColumn="organization_key">
+            <Table name="dim_organization_closure">
+            </Table>
+          </Closure>
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="StandardDimension" visible="true" foreignKey="index_name_key" highCardinality="false" name="index" caption="&#25351;&#26631;&#32500;&#24230;">
+      <Hierarchy name="default" visible="true" hasAll="true" allMemberName="allIndexs" allMemberCaption="&#20840;&#37096;&#25351;&#26631;" primaryKey="index_name_key">
+        <Table name="dim_index">
+        </Table>
+        <Level name="top_index" visible="true" table="dim_index" column="index_name_key" nameColumn="index_name" parentColumn="parent_name_key" nullParentValue="0" type="Integer" uniqueMembers="true" levelType="Regular" hideMemberIf="Never" caption="&#25351;&#26631;&#32423;&#21035;">
+          <Closure parentColumn="parent_name_key" childColumn="index_name_key">
+            <Table name="dim_index_closure">
+            </Table>
+          </Closure>
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Dimension type="TimeDimension" visible="true" foreignKey="date_key" highCardinality="false" name="date" caption="&#26085;&#26399;&#26376;&#20221;&#32500;&#24230;">
+      <Hierarchy name="default" visible="true" hasAll="true" allMemberName="allPeriods" allMemberCaption="&#20840;&#37096;&#26085;&#26399;" allLevelName="&#20840;&#37096;&#26085;&#26399;&#23618;&#32423;" primaryKey="date_key" caption="&#26085;&#26399;&#23618;&#27425;">
+        <Table name="dim_date">
+        </Table>
+        <Level name="year" visible="true" table="dim_date" column="year4" nameColumn="year2" type="Integer" uniqueMembers="true" levelType="TimeYears" hideMemberIf="Never" caption="&#24180;&#20221;">
+        </Level>
+        <Level name="quarter" visible="true" table="dim_date" column="quarter_number" nameColumn="quarter_name" ordinalColumn="quarter_number" type="Integer" uniqueMembers="false" levelType="TimeQuarters" hideMemberIf="Never" caption="&#23395;&#24230;">
+        </Level>
+        <Level name="month" visible="true" table="dim_date" column="month_number" nameColumn="month_name" ordinalColumn="month_number" type="Integer" uniqueMembers="false" levelType="TimeMonths" hideMemberIf="Never" caption="&#26376;&#20221;">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Measure name="plan_value" column="plan_value" datatype="Numeric" aggregator="sum" caption="&#25351;&#26631;&#35745;&#21010;&#20540;" visible="true">
+    </Measure>
+    <Measure name="actual_value" column="actual_value" datatype="Numeric" aggregator="sum" caption="&#25351;&#26631;&#23454;&#38469;&#20540;" visible="true">
+    </Measure>
+    <CalculatedMember name="finished_rate" caption="&#35745;&#21010;&#23436;&#25104;&#29575;" formula="[measures].[actual_value] / [measures].[plan_value]" dimension="Measures" visible="true">
+    </CalculatedMember>
+  </Cube>
+</Schema>

@@ -1,0 +1,42 @@
+<Schema name="MyTest">
+  <Cube name="Rental_Cube" visible="true" cache="true" enabled="true">
+    <Table name="fact_rental">
+    </Table>
+    <Dimension type="TimeDimension" visible="true" foreignKey="rental_date_key" highCardinality="false" name="dimTime">
+      <Hierarchy name="hTime" visible="true" hasAll="true" allMemberName="allPeriods" allMemberCaption="All Periods" primaryKey="date_key">
+        <Table name="dim_date">
+        </Table>
+        <Level name="Year" visible="true" table="dim_date" column="year4" type="Integer" uniqueMembers="true" levelType="TimeYears" hideMemberIf="Never">
+        </Level>
+        <Level name="Quarter" visible="true" table="dim_date" column="quarter_number" nameColumn="quarter_name" ordinalColumn="quarter_number" type="Integer" uniqueMembers="false" levelType="TimeQuarters" hideMemberIf="Never">
+        </Level>
+        <Level name="Month" visible="true" table="dim_date" column="month_number" nameColumn="month_name" ordinalColumn="month_number" type="Integer" uniqueMembers="false" levelType="TimeMonths" hideMemberIf="Never">
+        </Level>
+        <Level name="Day" visible="true" table="dim_date" column="day_in_month" type="Integer" uniqueMembers="false" levelType="TimeDays" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+      <Hierarchy name="hTimeByWeek" visible="true" hasAll="true" allMemberName="allPeriods" primaryKey="date_key">
+        <Table name="dim_date">
+        </Table>
+        <Level name="Year" visible="true" table="dim_date" column="year4" type="Integer" uniqueMembers="true" levelType="TimeYears" hideMemberIf="Never">
+        </Level>
+        <Level name="Week" visible="true" table="dim_date" column="week_in_year" type="Integer" uniqueMembers="false" levelType="TimeWeeks" hideMemberIf="Never">
+        </Level>
+      </Hierarchy>
+      <Hierarchy name="hYear" visible="true" hasAll="true" allMemberName="allYears" primaryKey="date_key">
+        <Table name="dim_date" alias="">
+        </Table>
+        <Level name="Year" visible="true" table="dim_date" column="year4" nameColumn="year2" ordinalColumn="year4" type="Integer" uniqueMembers="true" levelType="TimeYears">
+        </Level>
+      </Hierarchy>
+    </Dimension>
+    <Measure name="rentalCount" column="count_rentals" datatype="Integer" aggregator="sum" visible="true">
+    </Measure>
+    <Measure name="returnCount" column="count_returns" datatype="Integer" aggregator="sum" visible="true">
+    </Measure>
+    <Measure name="rentalDays" column="rental_duration" datatype="Integer" aggregator="sum" visible="true">
+    </Measure>
+    <CalculatedMember name="avgRentDays" formula="[measures].[rentalDays] / ( 60 * 60 * 24) / [measures].[rentalCount]" dimension="Measures" visible="true">
+    </CalculatedMember>
+  </Cube>
+</Schema>
