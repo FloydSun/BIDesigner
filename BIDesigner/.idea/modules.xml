@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/BIExplorer.iml" filepath="$PROJECT_DIR$/../BIExplorer/BIExplorer/BIExplorer.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/dynamicDS/dynamicDS.iml" filepath="$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/dynamicDS/dynamicDS.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/el/el.iml" filepath="$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/el/el.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../BIExplorer/frame/frame.iml" filepath="$PROJECT_DIR$/../BIExplorer/frame/frame.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/report/report.iml" filepath="$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/report/report.iml" />
       <module fileurl="file://$PROJECT_DIR$/saiku3.iml" filepath="$PROJECT_DIR$/saiku3.iml" />
       <module fileurl="file://$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/tools/tools.iml" filepath="$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/tools/tools.iml" />

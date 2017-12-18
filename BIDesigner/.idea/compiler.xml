@@ -6,16 +6,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="BIExplorer" />
         <module name="dynamicDS" />
         <module name="el" />
+        <module name="frame" />
         <module name="report" />
         <module name="saiku3" />
         <module name="tools" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="BIExplorer" target="1.8" />
       <module name="dynamicDS" target="1.8" />
       <module name="el" target="1.8" />
+      <module name="frame" target="1.8" />
       <module name="report" target="1.8" />
       <module name="saiku3" target="1.8" />
       <module name="tools" target="1.8" />

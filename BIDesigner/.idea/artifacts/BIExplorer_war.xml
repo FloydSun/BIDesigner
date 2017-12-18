@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="BIExplorer:war">
+    <output-path>$PROJECT_DIR$/../BIExplorer/BIExplorer/target</output-path>
+    <root id="archive" name="BIExplorer.war">
+      <element id="artifact" artifact-name="BIExplorer:war exploded" />
+    </root>
+  </artifact>
+</component>

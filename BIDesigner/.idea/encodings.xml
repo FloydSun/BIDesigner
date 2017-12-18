@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../BIExplorer/frame" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/el" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/report" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/tools" charset="UTF-8" />
