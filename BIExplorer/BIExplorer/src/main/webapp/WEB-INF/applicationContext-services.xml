@@ -21,7 +21,7 @@
 	<!-- DATABASE -->
 	<!-- -->
 	<bean id="dataSource" class="org.springframework.jndi.JndiObjectFactoryBean">
-		<property name="jndiName" value="java:comp/env/jdbc/speed_db_mysql" />
+		<property name="jndiName" value="java:comp/env/jdbc/speed_db_sqlserver" />
 	</bean>
 
 	<bean id="entityManagerFactory"
@@ -35,7 +35,7 @@
 					<property name="databasePlatform" value="org.hibernate.dialect.MySQLDialect"/> 
 					<property name="databasePlatform" value="org.hibernate.dialect.SQLServerDialect" />
 				-->
-				<property name="databasePlatform" value="org.hibernate.dialect.MySQLDialect"/> 
+				<property name="databasePlatform" value="org.hibernate.dialect.SQLServerDialect"/>
 				<property name="showSql" value="true" />
 			</bean>
 		</property>

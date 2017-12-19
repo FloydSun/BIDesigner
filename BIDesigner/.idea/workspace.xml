@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="saiku3:war exploded" />
+      <artifact name="BIExplorer:war exploded" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
@@ -43,12 +43,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AuthenticationProviderImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/security/AuthenticationProviderImpl.java">
+      <file leaf-file-name="NavigateItemDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/navigateitem/NavigateItemDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="135">
+              <caret line="9" column="81" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="81" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -56,93 +58,97 @@
       <file leaf-file-name="spring-security.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/WEB-INF/spring-security.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="68" />
+            <state relative-caret-position="99">
+              <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SessionRepositoryUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../BIExplorer/frame/src/main/java/com/spring/session/SessionRepositoryUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="24">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MapIndexNameSessionRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../BIExplorer/frame/src/main/java/com/spring/session/repository/MapIndexNameSessionRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SpringSessionFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../BIExplorer/frame/src/main/java/com/spring/session/filter/SpringSessionFilter.java">
+      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/WEB-INF/web.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+              <caret line="104" column="22" lean-forward="true" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="25" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AjaxRedirect.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../BIExplorer/frame/src/main/java/com/speed/frame/common/AjaxRedirect.java">
+      <file leaf-file-name="NavigateItemDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/navigateitem/NavigateItemDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CharacterEncodingFilter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../BIExplorer/frame/src/main/java/com/speed/frame/common/CharacterEncodingFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ControllerTools.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../BIExplorer/frame/src/main/java/com/speed/frame/common/ControllerTools.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GrantedAuthorityImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/security/GrantedAuthorityImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="12" selection-end-column="4" />
+            <state relative-caret-position="217">
+              <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding>
-                <element signature="e#309#310#0" expanded="true" />
-                <element signature="e#342#343#0" expanded="true" />
-                <element signature="e#389#390#0" expanded="true" />
-                <element signature="e#412#413#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <marker date="1513670017119" expanded="true" signature="1338:1441" ph="select disti... CUX_NAVIGATEAUTHORITY_T" />
+                <marker date="1513670017119" expanded="true" signature="1338:1442" ph="select disti... CUX_NAVIGATEAUTHORITY_T" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserDetailsServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/security/UserDetailsServiceImpl.java">
+      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/controller/servlet/login/LoginServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+            <state relative-caret-position="382">
+              <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="favorite.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/jsp/favorite.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+              <folding>
+                <marker date="1509015168543" expanded="true" signature="1085:1139" ph="..." />
+                <marker date="1509015168543" expanded="true" signature="2400:2448" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/jsp/login.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-45">
+              <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/account/AccountDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="201">
+              <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="loading.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/jsp/loading.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Account.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/entity/Account.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="186">
+              <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -159,9 +165,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>513px</find>
-      <find>savequery.js</find>
-      <find>save_query</find>
       <find>folder_name</find>
       <find>Over</find>
       <find>Overwrite</find>
@@ -189,6 +192,9 @@
       <find>applicationContext-servlet</find>
       <find>cxf-webservices</find>
       <find>session</find>
+      <find>ds=&quot;repods&quot;</find>
+      <find>springSessionRepositoryFilter</find>
+      <find>login1.jsp</find>
     </findStrings>
     <replaceStrings>
       <replace>..</replace>
@@ -202,6 +208,7 @@
       <replace>(String) servletContext.getAttribute</replace>
       <replace>BIDesigner</replace>
       <replace>saiku3</replace>
+      <replace>ds=&quot;local&quot;</replace>
     </replaceStrings>
   </component>
   <component name="GradleLocalSettings">
@@ -212,32 +219,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-spring-security-jdbc.properties" />
-        <option value="D:/cas-5.2.0/webapp/build.gradle" />
-        <option value="D:/cas-5.2.0/build.gradle" />
-        <option value="$PROJECT_DIR$/src/main/java/com/Auth.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cas/auth/Auth.java" />
-        <option value="$PROJECT_DIR$/src/lib/spring-jdbc-4.1.6.RELEASE.jar!/org/springframework/jdbc/core/JdbcTemplate.class" />
-        <option value="$PROJECT_DIR$/src/main/java/com/cas/auth/CustomAuth.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-spring-security-cas.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-spring-security.xml" />
-        <option value="$PROJECT_DIR$/src/lib/spring-security-core-4.0.1.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class" />
-        <option value="$PROJECT_DIR$/src/lib/spring-security-core-4.0.1.RELEASE.jar!/org/springframework/security/authentication/ProviderManager.class" />
-        <option value="$PROJECT_DIR$/src/oldtest/resources/org/saiku/web/rest/resources/saiku-beans.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/org/saiku/database/Database.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/saiku/web/rest/resources/SessionResource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/saiku/service/license/LicenseUtils.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/saiku/service/AnonymousSessionService.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/saiku/views/LoginForm.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/saiku/plugins/I18n/plugin.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/saiku/Settings.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/js/saiku/plugins/AdminConsole/plugin.js" />
-        <option value="$PROJECT_DIR$/src/main/java/org/saiku/web/rest/resources/Query2Resource.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/saiku/web/rest/objects/resultset/Cell.java" />
-        <option value="$PROJECT_DIR$/src/main/java/org/saiku/service/datasource/RepositoryDatasourceManager.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/display.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/saiku/views/Upgrade.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/applicationContext-saiku.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/js/saiku/views/WorkspaceToolbar.js" />
@@ -262,7 +243,33 @@
         <option value="$PROJECT_DIR$/src/main/webapp/js/saiku/adapters/SaikuServer.js" />
         <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/pom.xml" />
         <option value="$PROJECT_DIR$/../BIExplorer/frame/pom.xml" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/report/ReportServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/controller/servlet/report/ReportServlet.java" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/login1.jsp" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/jsp/login.html" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/jsp/login.jsp" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/resources/META-INF/datasource.xml" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/resources/META-INF/components/我的收藏/我的收藏.xml" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/META-INF/context.xml" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/WEB-INF/applicationContext-services.xml" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/jsp/index.jsp" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/navigateitem/NavigateItemDao.java" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/userrequest/UserRequestDao.java" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/userusage/UserUsageDao.java" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/login/LoginService.java" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/entity/Authority.java" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/entity/Role.java" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/login/LoginServiceImpl.java" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/account/AccountDao.java" />
+        <option value="/JPA QL Fragment (AccountDaoImpl.java:996).ql" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/userusage/UserUsageDaoImpl.java" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/userrequest/UserRequestDaoImpl.java" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/account/AccountDaoImpl.java" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/entity/Account.java" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/navigateitem/NavigateItemDaoImpl.java" />
         <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/controller/servlet/login/LoginServlet.java" />
+        <option value="$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/WEB-INF/spring-security.xml" />
       </list>
     </option>
   </component>
@@ -309,10 +316,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-39" />
-    <option name="y" value="309" />
+    <option name="x" value="103" />
+    <option name="y" value="91" />
     <option name="width" value="1346" />
-    <option name="height" value="698" />
+    <option name="height" value="746" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -331,13 +338,239 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scratches" />
-      <pane id="PackagesPane">
+      <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="saiku3" type="58d84e3e:PackageViewProjectNode" />
-              <item name="saiku3" type="616d4139:PackageViewModuleNode" />
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bi" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bi" type="462c0819:PsiDirectoryNode" />
+              <item name="explorer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bi" type="462c0819:PsiDirectoryNode" />
+              <item name="explorer" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bi" type="462c0819:PsiDirectoryNode" />
+              <item name="explorer" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bi" type="462c0819:PsiDirectoryNode" />
+              <item name="explorer" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="servlet" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bi" type="462c0819:PsiDirectoryNode" />
+              <item name="explorer" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bi" type="462c0819:PsiDirectoryNode" />
+              <item name="explorer" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bi" type="462c0819:PsiDirectoryNode" />
+              <item name="explorer" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="account" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bi" type="462c0819:PsiDirectoryNode" />
+              <item name="explorer" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+              <item name="navigateitem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bi" type="462c0819:PsiDirectoryNode" />
+              <item name="explorer" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="bi" type="462c0819:PsiDirectoryNode" />
+              <item name="explorer" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="我的收藏" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="jsp" type="462c0819:PsiDirectoryNode" />
+              <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
+              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -443,208 +676,13 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
+      <pane id="Scratches" />
+      <pane id="PackagesPane">
         <subPane>
           <expand>
             <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bi" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bi" type="462c0819:PsiDirectoryNode" />
-              <item name="explorer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bi" type="462c0819:PsiDirectoryNode" />
-              <item name="explorer" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="bi" type="462c0819:PsiDirectoryNode" />
-              <item name="explorer" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="META-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="BIExplorer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="speed" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="speed" type="462c0819:PsiDirectoryNode" />
-              <item name="frame" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="BIDesigner" type="b2602c69:ProjectViewProjectNode" />
-              <item name="frame" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
-              <item name="session" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
+              <item name="saiku3" type="58d84e3e:PackageViewProjectNode" />
+              <item name="saiku3" type="616d4139:PackageViewModuleNode" />
             </path>
           </expand>
           <select />
@@ -662,21 +700,25 @@
     <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../BIExplorer" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/src/main/java/com" />
+    <property name="SearchEverywhereHistoryKey" value="home&#9;PSI&#9;JAVA://com.sun.javaws.jnl.LaunchDesc.HomeJreInitializer" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.el" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.bi.explorer.model.entity" />
+      <recent name="com.bi.explorer.controller.servlet.login" />
+      <recent name="com.bi.explorer.controller.servlet.report" />
       <recent name="org.saiku.web.rest.resources" />
       <recent name="com.path" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Floyd\Documents\GitHub\BIDesigner\BIDesigner\src\main\resources" />
-      <recent name="C:\Users\Floyd\Documents\GitHub\BIDesigner\BIDesigner\src\main\java\org\saiku\web\service" />
-      <recent name="C:\Users\Floyd\Documents\GitHub\BIDesigner\BIDesigner\src\main\webapp\js\saiku\views" />
-      <recent name="C:\Users\Floyd\Documents\GitHub\BIDesigner\BIDesigner\src\main\webapp" />
-      <recent name="C:\Users\Floyd\Saiku\BIDesigner\src\main\webapp\repository\data" />
+      <recent name="C:\Users\Floyd\Documents\GitHub\BIDesigner\BIExplorer\BIExplorer\src\main\java\com\bi\explorer" />
+      <recent name="C:\Users\Floyd\Documents\GitHub\BIDesigner\BIExplorer\BIExplorer\src\main\java\com\bi\explorer\service" />
+      <recent name="C:\Users\Floyd\Documents\GitHub\BIDesigner\BIExplorer\BIExplorer\src\main\resources\META-INF\components" />
+      <recent name="C:\Users\Floyd\Documents\GitHub\BIDesigner\BIExplorer\BIExplorer\src\main\webapp" />
+      <recent name="C:\Users\Floyd\Documents\GitHub\BIDesigner\BIExplorer\BIExplorer\src\main\resources\META-INF" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -885,7 +927,8 @@
       </method>
     </configuration>
     <configuration name="view" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.1" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="UPDATING_POLICY" value="restart-server" />
+      <option name="UPDATE_ON_FRAME_DEACTIVATION" value="true" />
+      <option name="UPDATE_CLASSES_ON_FRAME_DEACTIVATION" value="true" />
       <deployment>
         <artifact name="BIExplorer:war exploded">
           <settings>
@@ -1014,12 +1057,14 @@
       <workItem from="1513050444585" duration="15105000" />
       <workItem from="1513134722322" duration="1245000" />
       <workItem from="1513236492275" duration="943000" />
-      <workItem from="1513572951398" duration="7024000" />
+      <workItem from="1513572951398" duration="7656000" />
+      <workItem from="1513649331327" duration="8379000" />
+      <workItem from="1513668287376" duration="2335000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="128762000" />
+    <option name="totallyTimeSpent" value="140108000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1035,29 +1080,31 @@
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3953099" sideWeight="0.24659607" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37353435" sideWeight="0.21104388" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.46369138" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32753405" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.1524288" sideWeight="0.80257183" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37353435" sideWeight="0.7889561" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.4969743" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3953099" sideWeight="0.75340396" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3953099" sideWeight="0.73071104" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.6633888" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.4969743" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.06030151" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998326" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30181542" sideWeight="0.49413735" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2881997" sideWeight="0.49413735" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.50586265" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41876048" sideWeight="0.48487142" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1065,7 +1112,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41876048" sideWeight="0.48789713" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.19288956" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1419,6 +1465,12 @@
           <properties />
           <option name="timeStamp" value="154" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/entity/Authority.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/main/webapp/js/saiku/views/Upgrade.js</url>
           <line>80</line>
@@ -1430,319 +1482,152 @@
           <option name="timeStamp" value="123" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="155" />
+      <option name="time" value="156" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/src/lib/jsr311-api-1.1.1.jar!/javax/ws/rs/core/Response.class">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/frame/src/main/java/com/speed/frame/common/ControllerTools.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="248" column="35" lean-forward="true" selection-start-line="248" selection-start-column="35" selection-end-line="248" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/saiku/web/rest/resources/DataSourceResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="61" column="13" lean-forward="false" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+        <state relative-caret-position="195">
+          <caret line="13" column="1" lean-forward="false" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/saiku/web/service/report/ReportService.java">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/security/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        <state relative-caret-position="285">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/report/src/main/java/com/xml/frame/report/component/Component.java">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/security/GrantedAuthorityImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="31" lean-forward="false" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="165">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="12" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/saiku/web/service/report/handlers/ContextHandler.java">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/security/AuthenticationProviderImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
+        <state relative-caret-position="165">
+          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/saiku/web/service/report/handlers/ContextHandlers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/saiku/web/service/report/handlers/ControllerContextHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="15" column="34" lean-forward="true" selection-start-line="15" selection-start-column="34" selection-end-line="15" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/components/test.xml" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2.jar!/org/apache/tools/ant/launch/Locator.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="154" column="25" lean-forward="false" selection-start-line="154" selection-start-column="25" selection-end-line="154" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/report/src/main/java/com/xml/frame/report/component/entity/WebResponse.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="458">
-          <caret line="68" column="5" lean-forward="true" selection-start-line="68" selection-start-column="5" selection-end-line="68" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://D:/apache-tomcat-9.0.1-windows-x86/apache-tomcat-9.0.1/lib/servlet-api.jar!/javax/servlet/ServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="36" column="0" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/report/src/main/java/com/xml/frame/report/component/controller/ControllerRequest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2145">
-          <caret line="168" column="28" lean-forward="false" selection-start-line="168" selection-start-column="11" selection-end-line="168" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/saiku/views/SaveQueryEx.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3825">
-          <caret line="269" column="37" lean-forward="false" selection-start-line="269" selection-start-column="37" selection-end-line="269" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/src/lib/jsr311-api-1.1.1.jar!/javax/ws/rs/FormParam.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/report/src/main/java/com/xml/frame/report/interpreter/ResponseXmlInterpreter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1260">
-          <caret line="108" column="43" lean-forward="false" selection-start-line="108" selection-start-column="43" selection-end-line="108" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/saiku/web/rest/resources/ReportResource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="34" column="83" lean-forward="false" selection-start-line="34" selection-start-column="31" selection-end-line="34" selection-end-column="83" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/saiku/web/rest/resources/ISaikuRepository.java">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/controller/servlet/session/Session.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="48" column="20" lean-forward="true" selection-start-line="48" selection-start-column="20" selection-end-line="48" selection-end-column="20" />
+          <caret line="26" column="23" lean-forward="true" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/saiku/web/rest/resources/Query2Resource.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1890">
-          <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/saiku/views/OverwriteModalCN.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/saiku/views/SaveQuery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4050">
-          <caret line="284" column="54" lean-forward="false" selection-start-line="284" selection-start-column="45" selection-end-line="284" selection-end-column="54" />
-          <folding>
-            <marker date="1512030427251" expanded="true" signature="2569:2617" ph="..." />
-            <marker date="1512030427251" expanded="true" signature="2655:2661" ph="&amp;nbsp;" />
-            <marker date="1512030427251" expanded="true" signature="2919:2934" ph="..." />
-            <marker date="1512030427251" expanded="true" signature="3000:3006" ph="&amp;nbsp;" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2085">
-          <caret line="153" column="5" lean-forward="false" selection-start-line="153" selection-start-column="5" selection-end-line="153" selection-end-column="5" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/saiku/render/SaikuRenderer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="14" column="28" lean-forward="false" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/saiku/render/SaikuChartRenderer.js">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/report/handlers/Counter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/report/handlers/ControllerContextHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/report/handlers/ContextHandlers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="93" column="21" lean-forward="true" selection-start-line="93" selection-start-column="21" selection-end-line="93" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/saiku/render/SaikuTableRenderer.js">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/report/handlers/UtilContextHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1512030427168" expanded="true" signature="19471:19489" ph="..." />
-            <marker date="1512030427168" expanded="true" signature="20476:20482" ph="&amp;nbsp;" />
-            <marker date="1512030427168" expanded="true" signature="21108:21114" ph="&amp;nbsp;" />
-            <marker date="1512030427168" expanded="true" signature="21359:21378" ph="..." />
-            <marker date="1512030427168" expanded="true" signature="22344:22350" ph="&amp;nbsp;" />
-            <marker date="1512030427168" expanded="true" signature="22611:22630" ph="..." />
-            <marker date="1512030427168" expanded="true" signature="23450:23456" ph="&amp;nbsp;" />
-            <marker date="1512030427168" expanded="true" signature="25836:25842" ph="&amp;nbsp;" />
-            <marker date="1512030427168" expanded="true" signature="26010:26017" ph="&amp;##9660;" />
-            <marker date="1512030427168" expanded="true" signature="30896:30913" ph="..." />
-            <marker date="1512030427168" expanded="true" signature="31563:31580" ph="..." />
-            <marker date="1512030427168" expanded="true" signature="35404:35410" ph="&amp;nbsp;" />
-          </folding>
+        <state relative-caret-position="75">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/report/src/main/java/com/xml/frame/report/interpreter/HttpXmlInterpreter.java">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/report/handlers/ContextHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="64" column="9" lean-forward="false" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+        <state relative-caret-position="120">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/controller/servlet/report/ReportServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="39" column="40" lean-forward="false" selection-start-line="39" selection-start-column="40" selection-end-line="39" selection-end-column="40" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/js/saiku/adapters/SaikuServer.js">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/report/handlers/RequestContextHandler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1770">
-          <caret line="132" column="32" lean-forward="false" selection-start-line="132" selection-start-column="32" selection-end-line="132" selection-end-column="32" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
+        <state relative-caret-position="60">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/saiku/web/rest/resources/BasicRepositoryResource2.java">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/report/ReportService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2355">
-          <caret line="204" column="6" lean-forward="false" selection-start-line="204" selection-start-column="2" selection-end-line="204" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#13742#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3495">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/tools/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/resources/META-INF/components/test.xml" />
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/controller/servlet/test/TestSessionController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="51" column="18" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="51" selection-end-column="18" />
-          <folding />
+        <state relative-caret-position="245">
+          <caret line="66" column="5" lean-forward="false" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/pom.xml">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/jsp/build/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="795">
-          <caret line="101" column="18" lean-forward="false" selection-start-line="101" selection-start-column="18" selection-end-line="101" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../../TBEA_Repo/TBEA/BusinessPerformance/Web/el/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="46" column="12" lean-forward="false" selection-start-line="35" selection-start-column="1" selection-end-line="46" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/frame/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="180" column="21" lean-forward="false" selection-start-line="180" selection-start-column="21" selection-end-line="180" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/WEB-INF/applicationContext-servlet.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-315">
+        <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/login1.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="12" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="16" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/WEB-INF/log4j.xml">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/report/ReportServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="94">
-          <caret line="74" column="44" lean-forward="false" selection-start-line="74" selection-start-column="33" selection-end-line="74" selection-end-column="44" />
-          <folding />
+        <state relative-caret-position="204">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/WEB-INF/spring-session.xml">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/resources/META-INF/components/我的收藏/我的收藏.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="86">
-          <caret line="44" column="76" lean-forward="false" selection-start-line="44" selection-start-column="47" selection-end-line="44" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="27" column="41" lean-forward="false" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/WEB-INF/cxf-webservices.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-139">
-          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/WEB-INF/applicationContext-services.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="146">
-          <caret line="50" column="0" lean-forward="true" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="105">
+          <caret line="34" column="14" lean-forward="true" selection-start-line="34" selection-start-column="14" selection-end-line="34" selection-end-column="14" />
           <folding />
         </state>
       </provider>
@@ -1755,103 +1640,288 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/resources/META-INF/datasource.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="73" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/META-INF/context.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+        <state relative-caret-position="15">
+          <caret line="1" column="43" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/frame/src/main/java/com/spring/session/AjaxAccessDeniedHandler.java">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/WEB-INF/applicationContext-services.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="21" column="4" lean-forward="true" selection-start-line="21" selection-start-column="4" selection-end-line="21" selection-end-column="4" />
-          <folding />
+          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/frame/src/main/java/com/spring/session/SessionRepositoryUtil.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.1.0.RELEASE/spring-security-core-4.1.0.RELEASE-sources.jar!/org/springframework/security/core/context/SecurityContextImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="110">
+          <caret line="28" column="59" lean-forward="false" selection-start-line="28" selection-start-column="44" selection-end-line="28" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/frame/src/main/java/com/spring/session/repository/MapIndexNameSessionRepository.java">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/userrequest/UserRequestDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/frame/src/main/java/com/spring/session/filter/SpringSessionFilter.java">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/userusage/UserUsageDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="12" lean-forward="true" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/frame/src/main/java/com/speed/frame/common/AjaxRedirect.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="9" column="20" lean-forward="true" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/frame/src/main/java/com/speed/frame/common/CharacterEncodingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/frame/src/main/java/com/speed/frame/common/ControllerTools.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/security/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/security/GrantedAuthorityImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="12" selection-end-column="4" />
+        <state relative-caret-position="45">
+          <caret line="3" column="54" lean-forward="false" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
           <folding>
-            <element signature="e#309#310#0" expanded="true" />
-            <element signature="e#342#343#0" expanded="true" />
-            <element signature="e#389#390#0" expanded="true" />
-            <element signature="e#412#413#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/security/AuthenticationProviderImpl.java">
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/entity/Authority.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#515#516#0" expanded="true" />
+            <element signature="e#550#551#0" expanded="true" />
+            <element signature="e#606#607#0" expanded="true" />
+            <element signature="e#654#655#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/login/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="129">
+          <caret line="16" column="38" lean-forward="false" selection-start-line="16" selection-start-column="38" selection-end-line="16" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/account/AccountDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="99">
+          <caret line="11" column="65" lean-forward="false" selection-start-line="11" selection-start-column="65" selection-end-line="11" selection-end-column="65" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/service/login/LoginServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="113">
+          <caret line="93" column="62" lean-forward="false" selection-start-line="93" selection-start-column="62" selection-end-line="93" selection-end-column="62" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2677#2697#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/entity/Role.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="15" column="15" lean-forward="false" selection-start-line="15" selection-start-column="15" selection-end-line="15" selection-end-column="15" />
+          <folding>
+            <element signature="e#395#396#0" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#926#927#0" expanded="true" />
+            <element signature="e#989#990#0" expanded="true" />
+            <element signature="e#1035#1036#0" expanded="true" />
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1093#1094#0" expanded="true" />
+            <element signature="e#1133#1134#0" expanded="true" />
+            <element signature="e#1165#1166#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/entity/NavigateItemEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="31" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/userusage/UserUsageDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="14" column="72" lean-forward="false" selection-start-line="14" selection-start-column="72" selection-end-line="14" selection-end-column="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/entity/UserRequestEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-231">
+          <caret line="16" column="29" lean-forward="false" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="e#415#416#0" expanded="false" />
+            <element signature="e#442#443#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/entity/UserUsageEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="28" column="26" lean-forward="false" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/userrequest/UserRequestDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="14" column="78" lean-forward="true" selection-start-line="14" selection-start-column="78" selection-end-line="14" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/jre/lib/javaws.jar!/com/sun/javaws/jnl/LaunchDesc.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="109">
+          <caret line="913" column="25" lean-forward="false" selection-start-line="913" selection-start-column="25" selection-end-line="913" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/jsp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-229">
+          <caret line="72" column="43" lean-forward="true" selection-start-line="72" selection-start-column="43" selection-end-line="72" selection-end-column="43" />
+          <folding>
+            <marker date="1513666610785" expanded="true" signature="1761:1840" ph="..." />
+            <marker date="1513666610785" expanded="true" signature="1785:1828" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/jsp/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1123">
+          <caret line="210" column="5" lean-forward="true" selection-start-line="210" selection-start-column="5" selection-end-line="210" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/jsp/favorite.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/jsp/favorite.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="49" lean-forward="true" selection-start-line="33" selection-start-column="49" selection-end-line="33" selection-end-column="49" />
+          <folding>
+            <marker date="1509015168543" expanded="true" signature="1085:1139" ph="..." />
+            <marker date="1509015168543" expanded="true" signature="2400:2448" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/jsp/loading.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="49" lean-forward="false" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/account/AccountDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="46" column="5" lean-forward="false" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/entity/Account.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="186">
+          <caret line="67" column="0" lean-forward="true" selection-start-line="67" selection-start-column="0" selection-end-line="67" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/navigateitem/NavigateItemDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="81" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="81" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/model/dao/navigateitem/NavigateItemDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="217">
+          <caret line="56" column="0" lean-forward="true" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1513670017119" expanded="true" signature="1338:1441" ph="select disti... CUX_NAVIGATEAUTHORITY_T" />
+            <marker date="1513670017119" expanded="true" signature="1338:1442" ph="select disti... CUX_NAVIGATEAUTHORITY_T" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/jsp/login.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/java/com/bi/explorer/controller/servlet/login/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="59" column="5" lean-forward="true" selection-start-line="59" selection-start-column="5" selection-end-line="59" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="20" selection-end-column="5" />
+          <caret line="104" column="22" lean-forward="true" selection-start-line="104" selection-start-column="22" selection-end-line="104" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../BIExplorer/BIExplorer/src/main/webapp/WEB-INF/spring-security.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="21" column="68" lean-forward="false" selection-start-line="21" selection-start-column="59" selection-end-line="21" selection-end-column="68" />
+        <state relative-caret-position="99">
+          <caret line="13" column="30" lean-forward="true" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding />
         </state>
       </provider>

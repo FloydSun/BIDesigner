@@ -9,7 +9,7 @@
 
     <http pattern="/webservice/*" security="none" /> 
     <http pattern="/session/timeout.do*" security="none" /> 
-	<http pattern="/login1.jsp" security="none" /> 
+	<http pattern="/home/login.do" security="none" />
 	
 	<authentication-manager>  
         <authentication-provider ref="authenticationProvider">  
@@ -18,14 +18,14 @@
 	
 	<http auto-config="true">
 		<access-denied-handler ref="accessDeniedHandler"/> 
-		<session-management invalid-session-url="/session/timeout.do?redirect=/login.jsp"></session-management>
+		<session-management invalid-session-url="/session/timeout.do?redirect=/jsp/login.jsp"></session-management>
 		<intercept-url pattern="/admin**" access="hasRole('ROLE_USER')" />
-		<intercept-url pattern="/app.jsp" access="hasRole('ROLE_SERVICE')"/>  
-	    <intercept-url pattern="/**" access="hasRole('ROLE_ADMIN')"/>  
-	      
-	    <logout logout-url="/logout.do" logout-success-url="/login1.jsp"/>
-	    <form-login login-page="/login1.jsp" authentication-failure-url="/error.jsp"  
-	        default-target-url="/index.jsp"/>
+        <intercept-url pattern="/app.jsp" access="hasRole('ROLE_SERVICE')"/>
+        <intercept-url pattern="/**" access="hasRole('ROLE_ADMIN')"/>
+
+        <logout logout-success-url="/home/login.do" invalidate-session="true"/>
+	    <form-login login-page="/home/login.do" authentication-failure-url="/jsp/login.jsp?error=true"
+	        default-target-url="/home/index.do"/>
 	    <csrf disabled="true"/>
 	</http>
 

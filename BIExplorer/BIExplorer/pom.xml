@@ -87,7 +87,12 @@
 			<artifactId>lettuce</artifactId>
 			<version>3.5.0.Final</version>
 		</dependency>
-	</dependencies>
+        <dependency>
+            <groupId>com.xml.frame</groupId>
+            <artifactId>report</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 	<build>
 		<finalName>BIExplorer</finalName>
         <plugins>
